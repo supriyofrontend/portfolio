@@ -47,7 +47,14 @@
   position: relative;
   text-decoration: none;
   border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: transparent;
+    border: 2px solid var(--c-primary);
+    color: var(--c-black-900) !important;
+  }
 }
+
 
 .custom-heading h2 {
   font-family: var(--ff-primary);

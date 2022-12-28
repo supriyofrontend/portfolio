@@ -1,20 +1,23 @@
-
 .testimonial {
     & .custom-heading {
         text-align: center;
+
         & .custom-para {
             padding: 0 300px;
             margin-top: 30px;
-          }
-      }
-      & .testimonial-content {
+        }
+    }
+
+    & .testimonial-content {
         & .testimonial-content-wrap {
             display: flex;
             justify-content: space-between;
             align-items: center;
             gap: 80px;
+
             & .col.col-6 {
                 width: 50%;
+
                 & .testimonal-box {
                     & .testimonial-img {
                         & img {
@@ -22,26 +25,11 @@
                             object-fit: cover;
                             height: 100px !important;
                             border-radius: 50px;
-                            border: 3px solid var(--c-primary);  
+                            border: 3px solid var(--c-primary);
                         }
-                    }    
+                    }
                 }
-            } 
+            }
         }
     }
 }
-
-
-
-
-
-
-
-
-/*.testimonial-img img {
-    width: 100px !important;
-    object-fit: cover;
-    height: 100px !important;
-    border-radius: 50px;
-    border: 3px solid var(--c-primary);
-}*/

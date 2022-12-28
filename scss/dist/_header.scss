@@ -1,6 +1,6 @@
 
 .site-header {
-
+    padding: 40px 0;
     & .logo img {
         height: 80px;
     }
@@ -14,19 +14,40 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-    }
-    & .nav-bar li {
-        padding: 0 30px;
-        list-style-type: none;
+        & li {
+            padding: 0 30px;
+            list-style-type: none;
+            & a {
+                text-decoration: none;
+                font-family: var(--ff-secondary);
+                font-size: 16px;
+                font-weight: 400;
+                color: var(--c-black-900);
+            }
+        }
     }
     & .header-lang {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-    }
-    & .header-lang li {
-        padding: 0 10px;
-        list-style-type: none;
+        & li {
+            padding: 0 5px;
+            list-style-type: none;
+            &.header-btn {
+                margin-left: 30px;
+                padding: 0 0;
+                & a {
+                    font-family: var(--ff-secondary);
+                    text-decoration: none;
+                    color: var(--c-white-900);
+                }
+            }
+            & a {
+                font-family: var(--ff-secondary);
+                text-decoration: none;
+                color: var(--c-black-900);
+            }
+        }
     }
 
 }
