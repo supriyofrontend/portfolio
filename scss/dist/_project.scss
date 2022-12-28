@@ -1,0 +1,18 @@
+
+.projects {
+    & .Project-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+        & .col.col-3 {
+            width: 25%;
+          }
+        & .project-content {
+            & .projects-box img {
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+}
