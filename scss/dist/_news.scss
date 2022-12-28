@@ -1,0 +1,23 @@
+
+.news {
+    & .news-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & .col.col-6 {
+            width: 50%;
+            & .news-content {
+                & .custom-para {
+                    padding-right: 160px;
+                    margin-top: 30px;
+                  }
+            }
+            & .news-btn {
+                text-align: center;
+                & .custom-btn {
+                    padding: 23px 169px 24px;
+                }
+            }
+        }
+    }
+}
