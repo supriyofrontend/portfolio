@@ -1,0 +1,65 @@
+
+/*Font links*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&display=swap');
+/*Font links*/
+
+:root {
+    --c-primary: #39839C;
+    --c-secondary: #808080;
+    --c-white-900: #ffffff;
+    --c-black-800: #34353C;
+    --c-black-900: #000000;
+    
+    --ff-primary: 'Inter', sans-serif;
+    --ff-secondary: 'Heebo', sans-serif;
+  }
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.container {
+	width:100%;
+	max-width:1440px;
+	margin:0 auto;
+}
+
+.custom-pad {
+    padding: 140px 0;
+}
+
+.custom-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--c-primary);
+  color: var(--c-white-900);
+  border: 2px solid transparent;
+  font-family: var(--ff-primary);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 10px 21px 11px;
+  letter-spacing: 1px;
+  position: relative;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.custom-heading h2 {
+  font-family: var(--ff-primary);
+  font-size: 50px;
+  font-weight: 400;
+  color: var(--c-black-800);
+  line-height: 32px;
+}
+
+.custom-para {
+  font-family: var(--ff-secondary);
+  font-size: 16px;
+  color: var(--c-secondary);
+  line-height: 32px;
+}

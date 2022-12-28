@@ -1,0 +1,14 @@
+@mixin flexproperty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*@include flexproperty;*/
+
+@mixin commoncode ($parameter1, $parameter2) {
+    color:red;
+    font-size: 28px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
