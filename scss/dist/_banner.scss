@@ -13,8 +13,16 @@
         right: 0;
         margin: 0 auto;
         z-index: 0;
+        @media (min-width:1600px) and (max-width:1850px) {
+            &::after {width: 95%;}
+        }
+        /*@media (min-width:1600px) and (max-width:1850px) {
+            .banner::after {
+                .banner::after {width: 95%;}
+            }  
+        }*/
     }
-
+    
     & .banner-wrap {
         display: flex;
         justify-content: space-between;
