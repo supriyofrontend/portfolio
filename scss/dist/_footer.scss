@@ -38,6 +38,11 @@
                     text-decoration: none;
                     color: var(--c-black-900);
                     font-size: 18px;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        color: var(--c-secondary);
+                    }
                 }
             }
         }

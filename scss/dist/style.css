@@ -417,6 +417,10 @@
   text-decoration: none;
   color: var(--c-black-900);
   font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+.footer-wrap .footer-content .social-icons li a:hover {
+  color: var(--c-secondary);
 }
 .footer-wrap .copyright-content-wrap {
   display: flex;
