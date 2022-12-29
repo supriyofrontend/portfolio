@@ -170,6 +170,7 @@
 }
 .banner .banner-wrap .col.col-6 .banner-content .banner-btn .custom-btn:hover {
   color: var(--c-white-900) !important;
+  border: 2px solid var(--c-white-900) !important;
 }
 .banner .banner-wrap .col.col-6 .banner-content .banner-btn .custom-btn.btn-2 {
   margin-left: 25px;
