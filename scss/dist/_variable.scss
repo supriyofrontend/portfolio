@@ -39,6 +39,15 @@
   @media (min-width:992px) and (max-width:1024px) {
     padding: 80px 0;
   }
+  @media (max-width: 991.98px) {
+    padding: 60px 0;
+  }
+  @media (max-width: 767.98px) {
+    padding: 50px 0;
+  }
+  @media (max-width:576px) {
+    padding: 40px 0;
+  }
 }
 
 .custom-btn {
@@ -77,8 +86,24 @@
     line-height: 52px;
   }
   @media (min-width:1024px) and (max-width:1200px) {
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  @media (min-width:992px) and (max-width:1024px) {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  @media (max-width: 991.98px) {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  @media (max-width: 767.98px) {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  @media (max-width:576px) {
+    font-size: 20px;
+    line-height: 28px;
   }
 }
 
@@ -87,4 +112,26 @@
   font-size: 16px;
   color: var(--c-secondary);
   line-height: 32px;
+  @media (min-width:1200px) and (max-width:1366px) {
+    font-size: 14px;
+    line-height: 27px;
+  }
+  @media (min-width:1024px) and (max-width:1200px) {
+    font-size: 14px;
+    line-height: 27px;
+  }
+  @media (min-width:992px) and (max-width:1024px) {
+    font-size: 14px;
+    line-height: 27px;
+  }
+  @media (max-width: 991.98px) {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  @media (max-width: 767.98px) {
+    line-height: 30px;
+  }
+  @media (max-width:576px) {
+    line-height: 24px;
+  }
 }

@@ -4,8 +4,16 @@
         justify-content: space-between;
         align-items: center;
 
+        @media (max-width: 767.98px) {
+            flex-direction: column;
+        }
+
         & .col.col-6 {
             width: 50%;
+
+            @media (max-width: 767.98px) {
+                width: 100%;
+            }
         }
     }
 
@@ -18,7 +26,20 @@
             @media (min-width:1366px) and (max-width:1600px) {
                 text-align: center;
             }
+
             @media (min-width:1200px) and (max-width:1366px) {
+                text-align: center;
+            }
+
+            @media (min-width:1024px) and (max-width:1200px) {
+                text-align: center;
+            }
+
+            @media (min-width:992px) and (max-width:1024px) {
+                text-align: center;
+            }
+
+            @media (max-width: 991.98px) {
                 text-align: center;
             }
         }
@@ -29,19 +50,49 @@
             @media (min-width:1200px) and (max-width:1366px) {
                 padding: 0 50px 0 50px;
             }
+
             @media (min-width:1024px) and (max-width:1200px) {
                 padding: 0 20px 0 0px;
             }
+
+            @media (min-width:992px) and (max-width:1024px) {
+                padding: 0 20px 0 0px;
+            }
+
+            @media (max-width: 991.98px) {
+                padding: 0 20px 0 0px;
+            }
+
+            @media (max-width: 767.98px) {
+                padding: 0 0px 0 0px;
+                margin-top: 20px;
+                text-align: center;
+            }
+
             & .custom-heading h2 {
                 padding-right: 80px;
+
+                @media (max-width: 767.98px) {
+                    padding-right: 0px;
+                }
             }
 
             & .custom-para {
                 margin-top: 20px;
+
                 @media (min-width:1200px) and (max-width:1366px) {
                     margin-top: 10px;
                 }
+
                 @media (min-width:1024px) and (max-width:1200px) {
+                    margin-top: 10px;
+                }
+
+                @media (min-width:992px) and (max-width:1024px) {
+                    margin-top: 10px;
+                }
+
+                @media (max-width: 991.98px) {
                     margin-top: 10px;
                 }
             }
@@ -53,32 +104,74 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 100px;
+
         @media (min-width:1024px) and (max-width:1200px) {
             margin-top: 50px;
         }
 
+        @media (min-width:992px) and (max-width:1024px) {
+            margin-top: 50px;
+        }
+
+        @media (max-width: 991.98px) {
+            margin-top: 50px;
+        }
+
+        @media (max-width: 767.98px) {
+            flex-direction: column;
+            margin-top: 30px;
+        }
+
         & .col.col-6 {
             width: 50%;
+
+            @media (max-width: 767.98px) {
+                width: 100%;
+            }
         }
 
         & .about-content.content-2 {
             padding: 0 120px 0 0;
 
             @media (min-width:1366px) and (max-width:1600px) {
-                 padding: 0 0px 0 120px;
+                padding: 0 0px 0 120px;
             }
+
             @media (min-width:1200px) and (max-width:1366px) {
                 padding: 0 50px 0 50px;
             }
+
             @media (min-width:1024px) and (max-width:1200px) {
                 padding: 0 0px 0 20px;
             }
+
+            @media (min-width:992px) and (max-width:1024px) {
+                padding: 0 0px 0 20px;
+            }
+
+            @media (max-width: 991.98px) {
+                padding: 0 0px 0 20px;
+            }
+
+            @media (max-width: 767.98px) {
+                padding: 0 0px 0 0px;
+                text-align: center;
+            }
+
             & .custom-heading h2 {
                 padding-right: 80px;
+
+                @media (max-width: 767.98px) {
+                    padding-right: 0px;
+                }
             }
 
             & .custom-para {
                 margin-top: 20px;
+
+                @media (max-width: 767.98px) {
+                    margin-top: 10px;
+                }
             }
         }
     }
@@ -92,10 +185,24 @@
     & .about-us-wrap-2 {
         & .about-img.img-2 {
             text-align: end;
+
             @media (min-width:1366px) and (max-width:1600px) {
                 text-align: center;
             }
+
             @media (min-width:1200px) and (max-width:1366px) {
+                text-align: center;
+            }
+
+            @media (min-width:1024px) and (max-width:1200px) {
+                text-align: center;
+            }
+
+            @media (min-width:992px) and (max-width:1024px) {
+                text-align: center;
+            }
+
+            @media (max-width: 991.98px) {
                 text-align: center;
             }
         }

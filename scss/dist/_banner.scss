@@ -13,53 +13,77 @@
         right: 0;
         margin: 0 auto;
         z-index: 0;
+
         @media (min-width:1600px) and (max-width:1850px) {
             width: 95%;
         }
+
         @media (min-width:1366px) and (max-width:1600px) {
             width: 100%;
         }
+
         @media (min-width:1200px) and (max-width:1366px) {
             width: 100%;
             height: 610px;
         }
+
         @media (min-width:1024px) and (max-width:1200px) {
             width: 100%;
             height: 560px;
         }
+
         @media (min-width:992px) and (max-width:1024px) {
             width: 100%;
             height: 550px;
         }
+
         @media (max-width: 991.98px) {
             width: 100%;
-            height: 430px;
-            border-radius: 35px 35px 130px 35px;
-        }
-        @media (max-width: 991.98px) {
             height: 390px;
             border-radius: 35px 35px 35px 35px;
         }
+
+        @media (max-width: 767.98px) {
+            width: 100%;
+            height: 335px;
+            border-radius: 35px 35px 35px 35px;
+        }
+
         @media (max-width: 576px) {
-            height: 415px;
+            height: 335px;
             border-radius: 20px 20px;
         }
+
+        @media (max-width:480px) {
+            height: 325px;
+            border-radius: 20px 20px;
+        }
+
+        @media (max-width:390px) {
+            height: 345px;
+            border-radius: 20px 20px;
+        }
+
     }
-    
+
     & .banner-wrap {
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: relative;
         padding: 96px 0;
+
         @media (max-width: 991.98px) {
             padding: 60px 0;
         }
+
         @media (max-width: 767.98px) {
             flex-direction: column;
         }
+
         .col.col-6 {
             width: 50%;
+
             @media (max-width: 767.98px) {
                 width: 100%;
             }
@@ -67,6 +91,7 @@
             & .banner-img img {
                 width: 100%;
                 object-fit: cover;
+
                 @media (max-width: 767.98px) {
                     display: none;
                 }
@@ -86,18 +111,23 @@
                     font-family: var(--ff-primary);
                     font-size: 64px;
                     color: var(--c-white-900);
+
                     @media (min-width:1200px) and (max-width:1366px) {
                         font-size: 54px;
                     }
+
                     @media (min-width:1024px) and (max-width:1200px) {
                         font-size: 46px;
                     }
+
                     @media (min-width:992px) and (max-width:1024px) {
                         font-size: 40px;
                     }
+
                     @media (max-width: 991.98px) {
                         font-size: 35px;
                     }
+
                     @media (max-width:576px) {
                         font-size: 25px;
                     }
@@ -107,13 +137,24 @@
                     color: var(--c-white-900);
                     margin-top: 35px;
                     padding-right: 100px;
+
+                    @media (min-width:1024px) and (max-width:1200px) {
+                        margin-top: 25px;
+                    }
+
+                    @media (min-width:992px) and (max-width:1024px) {
+                        margin-top: 20px;
+                    }
+
                     @media (max-width: 991.98px) {
                         padding-right: 10px;
                         margin-top: 20px;
                     }
+
                     @media (max-width: 767.98px) {
                         padding-right: 0px;
                     }
+
                     @media (max-width:576px) {
                         margin-top: 12px;
                     }
@@ -121,9 +162,11 @@
 
                 & .banner-btn {
                     margin-top: 40px;
+
                     @media (max-width: 991.98px) {
                         margin-top: 20px;
                     }
+
                     & .custom-btn:hover {
                         color: var(--c-white-900) !important;
                         border: 2px solid var(--c-white-900) !important;
