@@ -12,6 +12,10 @@
         align-items: center;
     }
 
+    & .hamburger-menu {
+        display: none;
+    }
+
     & .nav-bar {
         display: flex;
         flex-wrap: wrap;
@@ -27,9 +31,12 @@
                 font-size: 16px;
                 font-weight: 400;
                 color: var(--c-black-900);
+                border-bottom: 2px solid transparent;
                 transition: all 0.2s ease-in-out;
+
                 &:hover {
                     color: var(--c-secondary);
+                    border-bottom: 2px solid var(--c-primary);
                 }
             }
         }
